@@ -329,6 +329,7 @@ define QEMU_CONFIGURE_CMDS
 			--enable-kvm \
 			--enable-vhost-net \
 			--disable-download \
+			--enable-debug \
 			--disable-hexagon-idef-parser \
 			$(QEMU_OPTS)
 endef
